@@ -3,6 +3,7 @@ import java.util.Objects;
 
 public class ArrayDeque<T> implements Deque<T> {
     private T[] array;
+    //array's pointer differ with linkedList
     private int nextFirst;
     private int nextLast;
     private int size;
